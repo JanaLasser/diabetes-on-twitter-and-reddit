@@ -1,0 +1,2 @@
+#!/bin/bash
+twarc2 search --start-time 2006-03-21 --end-time 2021-06-18 --archive '("I was just diagnosed with diabetes" OR "today I was diagnosed with diabetes" OR "I just learned I have diabetes" OR "learned I got diabetes" OR "heard I got diabetes" OR "learned I have diabetes" OR "heard I have diabetes" OR "I was recently diagnosed with diabetes" OR "I recently learned I have diabetes" OR "I recently learned that I have diabetes") lang:en' > ../data/diagnosed_diabetes.jsonl
